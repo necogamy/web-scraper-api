@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 const router = require('./src/routes');
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 express.static(path.join(__dirname, '/src', '/static'));

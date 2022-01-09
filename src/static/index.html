@@ -5,11 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Web Scraper Microservice</title>
-
-    <link rel="stylesheet" href="./styles.css">
+    <title>Web Scraper API Microservice</title>
 </head>
 <body>
-    <h1>Hola soy nico</h1>
+    <header>
+        <h1>Web Scraper API Microservice</h1>
+        <hr />
+    </header>
+    <main>
+        <h2>API instructions:</h2>
+        <p>[project url]</p>
+
+        <small class="separator">+</small>
+
+        <p>/api</p>
+
+        <small class="separator">+</small>
+
+        <ol>
+            <li>/html</li>
+            <li>/images</li>
+            <li>/links</li>
+            <li>/videos</li>
+        </ol>
+
+        <small class="separator">+</small>
+
+        <h3>The target url as an query</h3>
+        <p>?link=[target url]</p>
+    </main>
+    <aside>
+        <small>By <a href="https://github.com/necogamy" target="_blank">necogamy</a></small>
+    </aside>
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        aside {
+            margin: 10px 0;
+        }
+        
+        hr {
+            width: 90vw;
+        }
+
+        small.separator {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    </style>
 </body>
 </html>
